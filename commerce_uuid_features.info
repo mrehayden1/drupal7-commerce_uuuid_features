@@ -1,0 +1,8 @@
+name = Commerce UUID Features
+description = Integrates Commerce entities with features using UUIDs
+core = 7.x
+package = Features
+dependencies[] = features
+dependencies[] = uuid
+dependencies[] = uuid_features
+version = 7.x-1.0-alpha1
