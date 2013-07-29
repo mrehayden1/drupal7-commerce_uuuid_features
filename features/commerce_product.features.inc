@@ -21,8 +21,7 @@ function commerce_product_features_export_options() {
 function commerce_product_features_export($data, &$export, $module_name = '') {
   $pipe = array();
 
-  $export['dependencies']['uuid_features'] = 'commerce_uuid_features';
-  $export['dependencies']['uuid_features'] = 'commerce_uuid_product';
+  $export['dependencies']['commerce_uuid_features'] = 'commerce_uuid_features';
 
   $product_ids = entity_get_id_by_uuid('commerce_product', $data);
   foreach($product_ids as $uuid => $product_id) {

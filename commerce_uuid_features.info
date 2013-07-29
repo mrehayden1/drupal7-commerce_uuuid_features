@@ -5,3 +5,5 @@ package = Features
 dependencies[] = features
 dependencies[] = uuid
 dependencies[] = uuid_features
+dependencies[] = commerce_uuid
+dependencies[] = commerce_features
