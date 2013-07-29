@@ -5,4 +5,3 @@ package = Features
 dependencies[] = features
 dependencies[] = uuid
 dependencies[] = uuid_features
-version = 7.x-1.0-alpha1
